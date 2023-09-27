@@ -1,0 +1,21 @@
+{
+    "inbounds": [
+        {
+            "type": "shadowsocks",
+            "listen": "::",
+            "listen_port":444,
+            "method": "2022-blake3-aes-256-gcm",
+            "password": "pWXrGL59sbGNva7qUBwUdv1kKvHI3q4tWmuzuzumMAo="
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "block",
+            "tag": "block"
+        }
+    ]
+}
